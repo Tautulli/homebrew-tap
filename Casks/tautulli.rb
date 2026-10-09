@@ -1,12 +1,11 @@
 cask "tautulli" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "2.18.1"
-  sha256 arm:   "1d1c35fd1ec34eb34cb068bf576884da99cbf5b86631c6bc00cb72299d96312d",
-         intel: "15576d5e8bae2070bf68285515d9a0a2ddfb5127ffa776256b639e9791e18b4c"
+  version "2.18.2"
+  sha256 arm:   "e35a6ce2db57ea306bf2098a7532086e1092651edeb204bd2fb1c21610f7160d",
+         intel: "9963152e6126a840c6b14202df87a7feb1cd6017ecb8da725c4fa2199979ba12"
 
-  url "https://github.com/Tautulli/Tautulli/releases/download/v#{version}/Tautulli-macos-v#{version}-#{arch}.pkg",
-      verified: "github.com/Tautulli/Tautulli/"
+  url "https://github.com/Tautulli/Tautulli/releases/download/v#{version}/Tautulli-macos-v#{version}-#{arch}.pkg"
   name "Tautulli"
   desc "Monitoring, analytics and notifications tool for Plex Media Server"
   homepage "https://tautulli.com/"
