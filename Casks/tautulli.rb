@@ -1,9 +1,9 @@
 cask "tautulli" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "2.18.2"
-  sha256 arm:   "e35a6ce2db57ea306bf2098a7532086e1092651edeb204bd2fb1c21610f7160d",
-         intel: "9963152e6126a840c6b14202df87a7feb1cd6017ecb8da725c4fa2199979ba12"
+  version "2.19.0"
+  sha256 arm:   "b59228acfe11c45a483f2df92cb72e8dd8d796253e4e5024ebaed6a9d9f23b50",
+         intel: "858221c65722837189b6428978550e2a4e756cfcd3a747425c0df23f3d837115"
 
   url "https://github.com/Tautulli/Tautulli/releases/download/v#{version}/Tautulli-macos-v#{version}-#{arch}.pkg"
   name "Tautulli"
